@@ -20,3 +20,9 @@
 </script>
 
 <slot />
+
+<style uno:preflights uno:safelist global>
+  :global(.color-picker .container .color) {
+    border-radius: 3px;
+  }
+</style>

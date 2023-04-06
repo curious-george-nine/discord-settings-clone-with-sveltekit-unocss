@@ -12,6 +12,9 @@ dependencies:
     version: 3.0.3
 
 devDependencies:
+  '@iconify-json/ph':
+    specifier: ^1.1.5
+    version: 1.1.5
   '@sveltejs/adapter-auto':
     specifier: ^2.0.0
     version: 2.0.0(@sveltejs/kit@1.5.0)
@@ -21,9 +24,15 @@ devDependencies:
   '@unocss/preset-attributify':
     specifier: ^0.50.6
     version: 0.50.6
+  '@unocss/preset-icons':
+    specifier: ^0.50.6
+    version: 0.50.6
   svelte:
     specifier: ^3.54.0
     version: 3.54.0
+  svelte-awesome-color-picker:
+    specifier: ^2.4.1
+    version: 2.4.1
   svelte-check:
     specifier: ^3.0.1
     version: 3.0.1(postcss@8.4.21)(svelte@3.54.0)
@@ -259,6 +268,12 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@iconify-json/ph@1.1.5:
+    resolution: {integrity: sha512-iLXq3nohfGge22gL2tZmQ2WHBKkKkIbGWrkuyC8arckS4PWaONyh4A+uDPtSek9QbYDvi9AE2+NxWkNZhANotA==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
 
   /@iconify/types@2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -652,6 +667,10 @@ packages:
       readdirp: 3.6.0
     optionalDependencies:
       fsevents: 2.3.2
+    dev: true
+
+  /colord@2.9.3:
+    resolution: {integrity: sha512-jeC1axXpnb0/2nn/Y1LPuLdgXBLH7aDcHu4KEKfqw3CUhX7ZpfBSlPKyqXE6btIgEzfWtrX3/tyBCaCvXvMkOw==}
     dev: true
 
   /colorette@2.0.19:
@@ -1300,6 +1319,12 @@ packages:
   /supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+    dev: true
+
+  /svelte-awesome-color-picker@2.4.1:
+    resolution: {integrity: sha512-IzICGgaMRMgyK4uukm27UdTFfN7s0QN3eoFyIGiXXY8FCPumS9T+vffVG4rNhiuUUP4ga5SoGUE+KXuNj5dsrw==}
+    dependencies:
+      colord: 2.9.3
     dev: true
 
   /svelte-check@3.0.1(postcss@8.4.21)(svelte@3.54.0):
